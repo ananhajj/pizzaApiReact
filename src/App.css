@@ -1,0 +1,48 @@
+ .pizza{
+    margin-top: 20px;
+ }
+.pizzaImg{
+    height: 350px;
+}
+.copy-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.copy-right p,
+ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: rgb(107, 114, 128);
+}
+
+.copy-right a {
+    color: rgb(107, 114, 128);
+}
+
+.footer-bottom .menu-bottom {
+    font-size: 16px;
+    text-align: right;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copy-right .menu-bottom li {
+    display: inline-block;
+    margin-right: 15px;
+    float: none;
+    width: auto;
+    padding: 0;
+}
+
+.copy-right .menu-bottom li:first-child a::after {
+    color: rgb(107, 114, 128);
+    ;
+    content: "|";
+    font-weight: 500;
+    position: relative;
+    left: 10px;
+}
